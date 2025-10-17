@@ -1,0 +1,45 @@
+.inkcap-background {
+    background-color: var(--off-black) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.inkcap-header-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mushroom-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: static;
+
+}
+
+.mushroom-heading {
+    color: var(--off-white);
+    position: absolute;
+    left: 60%;
+    font-size: 4rem;
+    text-align: end;
+    margin-right: 8rem;
+    font-family: Charm, sans-serif;
+}
+
+.inkcap-content-section-1 {
+    background-color: var(--off-white);
+    height: 250px;
+    width: 100%;
+}
+
+.inkcap-content-section-heading {
+    text-align: center;
+}

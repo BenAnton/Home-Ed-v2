@@ -1,0 +1,52 @@
+.HomeBackground {
+    background-image: url("/4.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentContainer {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 2px solid var(--off-white);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    color: var(--off-white);
+    text-align: center;
+    padding: 2rem;
+    place-content: center;
+}
+.button {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+}
+
+.heading {
+    font-size: 3rem;
+    border-radius: 15px;
+    width: fit-content;
+    margin-inline: auto;
+     font-family: "Charm", "sans-serif";
+    color: var(--off-white);
+    margin: 0 auto;
+}
+
+.para {
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: center;
+    margin-inline: auto;
+    border-radius: 15px;
+    color: var(--off-white);
+}

@@ -1,0 +1,57 @@
+
+.my-story-background {
+    background-image: url("/16.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-story-container {
+    margin-top: 8rem;
+
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--off-white);
+    height: fit-content;
+    width: 100%;
+
+}
+
+.my-story-img {
+    width: 40%;
+    margin-left: auto;
+    /*border: 2px solid var(--off-white);*/
+}
+
+.my-story-left {
+    padding-inline: 15rem;
+    padding-block: 8rem;
+}
+
+.my-story-heading {
+    font-size: 3rem;
+}
+
+.my-story-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.my-story-flex {
+    display: flex;
+    width: 100%;
+    margin-inline: auto;
+    margin-bottom: 5rem;
+}
+
+.my-story-flex-img {
+    flex: 1;
+    width: 20%;
+    height: auto;
+    filter: grayscale(100%);
+}
