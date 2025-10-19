@@ -16,23 +16,23 @@ function InkCap() {
 
                 </div>
 
-                <div className="our-ethos-flex">
-                    <div className="our-ethos-child one">
+                <div className="our-ink-flex">
+                    <div className="our-ink-child ione">
                         <h3>Scales</h3>
-                        <p className="our-ethos-card-p"></p>
+                        <p className="our-ink-card-p"></p>
                     </div>
-                    <div className="our-ethos-child two">
+                    <div className="our-ink-child itwo">
                         <h3>Kylie</h3>
-                        <p className="our-ethos-card-p"></p>
+                        <p className="our-ink-card-p"></p>
                     </div>
-                    <div className="our-ethos-child three"><h3>In the box...</h3>
-                        <p className="our-ethos-card-p"></p>
+                    <div className="our-ink-child ithree"><h3>In the box...</h3>
+                        <p className="our-ink-card-p"></p>
                     </div>
-                    <div className="our-ethos-child four"><h3>Pamela</h3>
-                        <p className="our-ethos-card-p"></p>
+                    <div className="our-ink-child ifour"><h3>Pamela</h3>
+                        <p className="our-ink-card-p"></p>
                     </div>
-                    <div className="our-ethos-child five"><h3>Inkcap</h3>
-                        <p className="our-ethos-card-p"></p>
+                    <div className="our-ink-child ifive"><h3>Inkcap</h3>
+                        <p className="our-ink-card-p"></p>
                     </div>
                 </div>
 

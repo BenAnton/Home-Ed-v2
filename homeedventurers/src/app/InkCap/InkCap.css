@@ -86,7 +86,7 @@
 
 
 
-.our-ethos-flex {
+.our-ink-flex {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -95,7 +95,7 @@
     height: fit-content;
 }
 
-.our-ethos-child {
+.our-ink-child {
     position: relative;
     flex: 1;
     height: 400px;
@@ -114,7 +114,7 @@
     filter: brightness(1);
 }
 
-.our-ethos-child:hover {
+.our-ink-child:hover {
     flex: 2;
     background-size: 130%;
     transform: scaleX(1.02);
@@ -122,18 +122,18 @@
     filter: brightness(1);
 }
 
-.our-ethos-flex:hover .our-ethos-child:not(:hover) {
+.our-ink-flex:hover .our-ink-child:not(:hover) {
     filter: brightness(0.6);
 
 }
 
-.our-ethos-child h3 {
+.our-ink-child h3 {
     color: var(--off-white);
     font-size: 1.5rem;
     transition: transform 0.3s ease;
 }
 
-.our-ethos-child p {
+.our-ink-child p {
     color: var(--off-white);
     opacity: 0;
     max-width: 80%;
@@ -142,35 +142,35 @@
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.our-ethos-child:hover p {
+.our-ink-child:hover p {
     opacity: 1;
     transform: translateY(0);
     backdrop-filter: blur(20px);
 }
 
-.our-ethos-child > h3 {
+.our-ink-child > h3 {
     backdrop-filter: blur(20px);
     margin-bottom: auto;
 }
 
-.one {
+.ione {
     background-image: url("/inkmushroom.png");
     background-size: cover;
     background-color: #075c71;
 }
-.two {
+.itwo {
     background-image: url("/ink1.jpeg");
     background-size: cover;
 }
-.three {
+.ithree {
     background-image: url("/ink3.jpeg");
     background-size: cover;
 }
-.four {
+.ifour {
     background-image: url("/ink5.jpeg");
     background-size: cover;
 }
-.five {
+.ifive {
     background-image: url("/inkwitch.png");
     background-size: cover;
     background-color: #075c71;
