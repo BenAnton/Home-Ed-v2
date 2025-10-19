@@ -10,7 +10,7 @@ function NavBar () {
                 <Link className="nav-link" href="/">Home</Link>
                 <Link className="nav-link"  href="/MyStory">My Story</Link>
                 <Link className="nav-link"  href="/OurEthos">Our Ethos</Link>
-                <Link className="nav-link"  href="/Blog">Blog</Link>
+                {/*<Link className="nav-link"  href="/Blog">Blog</Link>*/}
                 <Link className="nav-link"  href="/Resources">Resources</Link>
                 <Link className="nav-link"  href="/InkCap">InkCap</Link>
             </ul>

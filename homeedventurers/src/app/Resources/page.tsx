@@ -6,6 +6,8 @@ import "./resources.css"
 
 function Resources () {
     return (
+
+
         <div className="resources-background">
 
             <div className="resources-featured">
@@ -14,11 +16,11 @@ function Resources () {
                     <div className="featured-flex">
                         <h2 className="featured-heading-h2">{resources[0].title}</h2>
                         <h3 className="featured-heading-h3">Our newest magical guide - We're excited to share it with you.</h3>
-                        <p className="featured-price">${resources[0].price}</p>
+                        <p className="featured-price">£{resources[0].price}</p>
 
                         <div className="featured-flex-button">
-                            <button>Buy Now</button>
-                            <button>Find out more...</button>
+                            <a className="featured-buy-button" href={`https://payhip.com/${resources[0].id}`}>Buy Now</a>
+
 
                         </div>
 
@@ -32,7 +34,8 @@ function Resources () {
             ))}
         </div>
             </div>
-    )
+
+            )
 }
 
 export default Resources;

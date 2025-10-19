@@ -67,10 +67,41 @@ function OurEthos () {
 
                         Home Edventurers is a place to feel supported, inspired, and reminded that you’re already doing enough — because your love, your curiosity, and your time together are the magic.
                     </p>
+
+                    <h1 className="our-chars-heading">Our Characters</h1>
+                    <p>Gnomes are more than just storybook characters; they're symbols of a slower, more grounded way of life. Rooted in nature, tradition, and quiet wisdom, gnomes represent the values that shape this Home Edventurers; curiosity, care, and connection.
+                    </p>
+
+                    <p>Gnomes live in harmony with the land, tending to forests, gardens, and animals with quiet dedication. They notice the small things, move at a thoughtful pace, and find joy in simple daily rituals. Just like a child learning through wonder.
+                    </p>
+
+                    <p>Their world is one of handmade treasures, seasonal rhythms, and cosy homes filled with purpose. Gnomes remind us that learning doesn’t need to be rushed or loud, it can be gentle, joyful, and deeply meaningful.</p>
+
+                    <div className="our-ethos-flex">
+                        <div className="our-ethos-child char1 one">
+                            <h3>🕯️<br/> Why a Witchling
+
+                            </h3>
+                            <p className="our-ethos-card-p">The witchling is a gentle guide — a wise soul who follows the rhythm of the seasons and listens closely to the land.
+                                She gathers knowledge through nature’s quiet lessons, reminding us to nurture ourselves and others with calm intention.
+                                Her way of living mirrors our ethos — slow, mindful, and filled with everyday enchantment.
+                            </p>
+                        </div>
+                        <div className="our-ethos-child char2 two">
+                            <h3>🍄<br/>Why Gnomes?</h3>
+                            <p className="our-ethos-card-p">Gnomes are more than storybook characters; they’re symbols of a slower, more grounded way of life.
+                                Rooted in nature, tradition, and quiet wisdom, they embody the heart of Home Edventurers — curiosity, care, and connection.
+                                Their simple, purposeful lives remind us that learning can be gentle, joyful, and deeply meaningful.
+
+                            </p>
+                        </div>
+
+
+                    </div>
+
+
                 </div>
-                <div className="our-ethos-header-container">
-                    <h1>Enchanted Characters Section</h1>
-                </div>
+
             </div>
         </div>
     )

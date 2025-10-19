@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -6,7 +7,8 @@ export default function Home() {
       <section className={styles.content}>
           <div className={styles.contentContainer}>
         <h1 className={styles.heading}>Inspiring Curiosity, Wonder & Enchantment</h1>
-          <button className={styles.button}>Find Out More...</button>
+
+              <Link className={styles.homelinkbutton}  href="/OurEthos">Find Out More...</Link>
 
 
               <p className={styles.para}>Welcome to Home Edventurers — a cozy corner of the world where learning flows gently through play, nature, and everyday magic.

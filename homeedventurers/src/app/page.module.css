@@ -27,26 +27,49 @@
     place-content: center;
 }
 .button {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    margin-inline: auto;
+
 }
 
 .heading {
     font-size: 3rem;
     border-radius: 15px;
     width: fit-content;
-    margin-inline: auto;
-     font-family: "Charm", "sans-serif";
+    font-family: "Charm", "sans-serif";
     color: var(--off-white);
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .para {
     font-size: 1.2rem;
     width: 90%;
     text-align: center;
-    margin-inline: auto;
+    margin: 2rem auto;
     border-radius: 15px;
     color: var(--off-white);
+}
+
+.homelinkbutton {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+    width: auto;
+    border: none;
+    background: none;
+    color: var(--off-white);
+    background-color: var(--brand-color);
+    min-width: fit-content;
+    min-height: 50px;
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: ease-in-out 0.5s;
+    text-decoration: none;
+}
+
+.homelinkbutton:hover {
+    background-color: var(--off-white);
+    color: var(--brand-color);
+    cursor: pointer;
+    transform: scale(1.2);
 }
