@@ -7,6 +7,7 @@
     min-width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .our-ethos-container {
@@ -23,7 +24,7 @@
     border: 2px solid var(--off-white);
     /*max-width: 800px;*/
     width: 90%;
-    margin: 5rem auto 2rem auto;
+    margin: 2rem auto 2rem auto;
     box-sizing: border-box;
 }
 
@@ -39,6 +40,12 @@
     margin-inline: auto;
     width: 90%;
     height: fit-content;
+    justify-content: center;
+}
+
+.our-ethos-flex-wide {
+    width: 100%;
+    display: flex;
 }
 
 .our-ethos-child {
@@ -123,12 +130,15 @@
     margin-top: 2rem;
 }
 
-
+.our-ethos-last-para {
+    margin-bottom: 2rem;
+}
 
 
 .char1 {
     background-image: url("/witch.png");
     min-height: 600px;
+    max-width: 700px;
     background-size: 80%;
 }
 
@@ -143,6 +153,7 @@
 .char2 {
     background-image: url("/twognomes.png");
     min-height: 600px;
+    max-width: 700px;
     background-size: 80%;
 }
 
@@ -152,4 +163,53 @@
 
 .char2 > h3 {
     margin-bottom: auto;
+}
+
+@media (min-width: 1200px) {
+    .two {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .our-ethos-child > h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .our-ethos-flex {
+        flex-wrap: wrap;
+    }
+
+    .our-ethos-child {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 868px) {
+    .our-ethos-child p {
+        opacity: 1 !important;
+        transition: none !important;
+        transform: none !important;
+    }
+
+    .our-ethos-child:hover {
+        opacity: 1;
+        transform: none;
+    }
+
+    .our-ethos-child:hover {
+        flex:1;
+        transform: none;
+    }
+
+    .char2 {
+        background-position-y: 100px;
+    }
+
+    .char1 {
+        background-position-y: 100px;
+    }
+
 }

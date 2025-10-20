@@ -1,5 +1,6 @@
 .inkcap-background {
-    background-color: var(--off-black) ;
+    /*background-color: var(--off-black) ;*/
+    background-image: url("/redmush.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,37 +9,47 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
 }
 
 .inkcap-header-container {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    /*border: 2px solid var(--off-white);*/
+    gap: 3rem;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 6rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
-.mushroom-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: static;
-
-}
+/*.mushroom-img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*    position: static;*/
+/*    margin-bottom: 1rem;*/
+/*    !*border-bottom: 2px solid var(--off-white);*!*/
+/*}*/
 
 .inkcap-img {
-    position: absolute;
-    left: 80%;
-    top: 30%;
-    width: 150px;
+    /*position: absolute;*/
+    /*left: 80%;*/
+    /*top: 30%;*/
+    width: 250px;
 }
 
 .mushroom-heading {
     color: var(--off-white);
-    position: absolute;
-    left: 60%;
-    font-size: 4rem;
-    text-align: end;
-    margin-right: 8rem;
+    /*position: absolute;*/
+    /*left: 60%;*/
+    font-size: 3rem;
+    text-align: center;
+    /*margin-right: 8rem;*/
     font-family: Charm, sans-serif;
 }
 
@@ -157,6 +168,7 @@
     background-image: url("/inkmushroom.png");
     background-size: cover;
     background-color: #075c71;
+    background-position-y: 50px;
 }
 .itwo {
     background-image: url("/ink1.jpeg");
@@ -200,7 +212,6 @@
     margin-inline: auto;
     border: none;
     color: var(--off-white);
-    background-color: var(--brand-color);
     min-width: fit-content;
     min-height: 50px;
     padding: 1rem;
@@ -209,6 +220,7 @@
     border-radius: 15px;
     transition: ease-in-out 0.5s;
     text-decoration: none;
+    background-color: #075c71;
 }
 
 .homelinkbutton:hover {
@@ -220,4 +232,47 @@
 
 .content-container > p {
     margin: 1.5rem;
+}
+
+
+@media (max-width: 1024px) {
+    .inkcap-header-container {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .our-ink-flex {
+
+        flex-wrap: wrap;
+    }
+
+    .our-ink-child {
+        min-width: 350px;
+    }
+
+    .inkcap-img {
+    width: 150px;
+    }
+
+    .mushroom-heading {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        padding: 1rem;
+    }
+
+    .ione {
+        background-position-y: 0px;
+    }
+
+    .inkcap-header-container {
+        margin-top: 8rem;
+    }
+
 }

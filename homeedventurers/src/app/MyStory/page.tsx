@@ -24,7 +24,7 @@ function MyStory() {
 
                             </p>
                         </div>
-                        <img  className="my-story-img" src="pam.png"/>
+                        <img  className="my-story-img" src="pam copy.png"/>
                     </div>
 
                     <div className="my-story-flex">

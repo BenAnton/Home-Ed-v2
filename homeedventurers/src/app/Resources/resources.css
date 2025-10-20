@@ -1,6 +1,6 @@
 .resources-background {
-    /*background-image: url("/walk.jpg");*/
-    background-color: #20292f ;
+    background-image: url("/14.jpeg");
+    /*background-color: #20292f ;*/
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,6 +8,7 @@
     min-width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .resources-container {
@@ -18,13 +19,14 @@
     height: fit-content;
     margin: 1rem auto;
     margin-bottom: 5rem;
+    justify-items: center;
 }
 
 .resources-featured {
     margin: 1rem auto;
     margin-top: 8rem;
-    width: 50%;
-    height: fit-content;
+    width: 90%;
+    height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,6 +36,8 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     gap: 1rem;
     min-width: 600px;
+    background-color: #20292f ;
+    border: 2px solid var(--off-white);
 }
 
 .featured-heading-h2 {
@@ -52,10 +56,12 @@
 .featured-flex {
     display: flex;
     flex-direction: column;
-    height: fit-content;
+    height: 100%;
+    width: 70%;
     gap: 1rem;
+    padding: 2rem;
     margin: 1rem;
-
+    flex-grow: 1;
 }
 
 .featured-flex-button {
@@ -67,10 +73,13 @@
 }
 
 .featured-img {
-    width: 300px;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     border-radius: 15px 0 0 15px;
-    flex-grow: 1;
+    flex: 1;
+
 }
 
 .featured-price {
@@ -102,3 +111,44 @@
         cursor: pointer;
         transform: scale(1.2);
     }
+
+
+@media (max-width: 1024px) {
+    .featured-flex {
+        gap: 0.5rem;
+    }
+
+    .featured-heading-h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .featured-heading-h2 {
+        font-size: 1.2rem;
+    }
+
+    .resources-container {
+        grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+    }
+}
+
+@media (max-width: 680px) {
+    .resources-featured {
+        flex-direction: column;
+        gap: 0.5rem;
+        min-width: 300px;
+        height: auto;
+    }
+
+    .featured-img {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .featured-flex {
+        padding: 1.5rem;
+        width: 100%;
+        margin: 0;
+    }
+}

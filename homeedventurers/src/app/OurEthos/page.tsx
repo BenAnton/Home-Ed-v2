@@ -75,9 +75,9 @@ function OurEthos () {
                     <p>Gnomes live in harmony with the land, tending to forests, gardens, and animals with quiet dedication. They notice the small things, move at a thoughtful pace, and find joy in simple daily rituals. Just like a child learning through wonder.
                     </p>
 
-                    <p>Their world is one of handmade treasures, seasonal rhythms, and cosy homes filled with purpose. Gnomes remind us that learning doesn’t need to be rushed or loud, it can be gentle, joyful, and deeply meaningful.</p>
+                    <p className="our-ethos-last-para">Their world is one of handmade treasures, seasonal rhythms, and cosy homes filled with purpose. Gnomes remind us that learning doesn’t need to be rushed or loud, it can be gentle, joyful, and deeply meaningful.</p>
 
-                    <div className="our-ethos-flex">
+                    <div className="our-ethos-flex our-ethos-flex-wide">
                         <div className="our-ethos-child char1 one">
                             <h3>🕯️<br/> Why a Witchling
 

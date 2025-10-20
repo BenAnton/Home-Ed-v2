@@ -8,11 +8,11 @@ function InkCap() {
             <div className="inkcap-background">
 
                 <div className="inkcap-header-container">
-                    <img className="mushroom-img" src="/mushroom.png" alt="mushroom"/>
-                    <div>
+                    {/*<img className="mushroom-img" src="/mushroom.png" alt="mushroom"/>*/}
+                    {/*<div>*/}
                         <img className="inkcap-img" src="/inklogo1.png" alt="inkcap"/>
                         <h3 className="mushroom-heading">The Inkcap Adventure Boxes Collaboration</h3>
-                    </div>
+                    {/*</div>*/}
 
                 </div>
 

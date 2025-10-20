@@ -10,6 +10,8 @@
     padding: 0;
     max-width: 300px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    min-height: fit-content;
+    height: 100%;
 }
 
 .resource-card:hover {
@@ -35,4 +37,23 @@
 
 a {
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .resource-card >  h3 {
+        font-size: 0.8rem;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex-shrink: 1;
+    }
+
+
+    }
+
+@media (max-width: 575px) {
+    .resource-card > h3 {
+        font-size: 0.6rem;
+    }
 }

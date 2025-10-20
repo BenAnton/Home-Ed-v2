@@ -1,6 +1,6 @@
 
 .my-story-background {
-    background-image: url("/16.jpeg");
+    background-image: url("/13.jpeg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,29 +8,34 @@
     min-width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .my-story-container {
     margin-top: 8rem;
-
     margin-inline: auto;
     display: flex;
     flex-direction: row;
     background-color: var(--off-white);
     height: fit-content;
     width: 100%;
-
+    align-items: center;
 }
 
 .my-story-img {
-    width: 40%;
+    width: 100%;
+    max-width: 800px;
     margin-left: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     /*border: 2px solid var(--off-white);*/
 }
 
 .my-story-left {
-    padding-inline: 15rem;
-    padding-block: 8rem;
+    padding-inline: 5rem;
+    padding-block: 2rem;
+
 }
 
 .my-story-heading {
@@ -54,4 +59,43 @@
     width: 20%;
     height: auto;
     filter: grayscale(100%);
+}
+
+
+@media (max-width: 1252px) {
+    .my-story-left {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .my-story-left {
+        padding: 5rem;
+    }
+
+    .my-story-heading {
+        font-size: 2rem;
+    }
+
+    .my-story-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .my-story-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .my-story-left {
+        padding: 2.5rem;
+        text-align: justify;
+    }
+
+    .my-story-heading {
+        text-align: center;
+        margin-top: 0;
+    }
 }

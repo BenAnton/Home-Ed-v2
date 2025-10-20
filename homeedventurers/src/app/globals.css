@@ -23,6 +23,10 @@ body {
     position: relative;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 button {
     width: auto;
     border: none;
@@ -45,3 +49,8 @@ button:hover {
     transform: scale(1.2);
 }
 
+@media (min-width: 1500px) {
+    .content-container {
+        padding: 1rem;
+    }
+}
