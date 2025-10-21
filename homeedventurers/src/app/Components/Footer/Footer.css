@@ -13,9 +13,11 @@
 }
 
 
+
 .footer-list {
     display: flex;
     gap: 2rem;
+
 }
 
 .footer-list > * {
@@ -32,3 +34,10 @@ a >img:hover {
     transition: ease-in-out 0.5s;
     transform: scale(1.2);
 }
+
+li {
+    list-style: none;
+    padding: 0;
+}
+
+ul { padding: 0;}

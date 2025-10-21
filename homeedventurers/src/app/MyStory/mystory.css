@@ -68,23 +68,33 @@
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
     .my-story-left {
-        padding: 5rem;
+        padding: 3rem;
     }
 
     .my-story-heading {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
+
     .my-story-text {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 915px) {
     .my-story-container {
         flex-direction: column;
+    }
+    .my-story-left {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .my-story-img {
+        margin-left: 0;
+        min-width: 100%;
     }
 }
 

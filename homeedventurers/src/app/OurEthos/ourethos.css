@@ -80,7 +80,8 @@
 
 }
 
-.our-ethos-child h3 {
+.our-ethos-child h3, h2 {
+    text-align: center;
     color: var(--off-white);
     font-size: 1.5rem;
     transition: transform 0.3s ease;

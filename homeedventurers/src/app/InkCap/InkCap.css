@@ -245,7 +245,6 @@
 
 @media (max-width: 950px) {
     .our-ink-flex {
-
         flex-wrap: wrap;
     }
 
@@ -255,6 +254,7 @@
 
     .inkcap-img {
     width: 150px;
+        height : 150px;
     }
 
     .mushroom-heading {

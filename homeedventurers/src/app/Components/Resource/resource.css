@@ -1,3 +1,9 @@
+.resource-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .resource-card {
     display: flex;
     flex-direction: column;

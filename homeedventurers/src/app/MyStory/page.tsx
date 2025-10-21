@@ -1,13 +1,11 @@
-import type {StoryCardObject} from "../Types/types"
-import stories from "../Data/storyCardData"
-import StoryCard from "../Components/StoryCard/StoryCard"
 import "./mystory.css";
+import Image from "next/image";
 
 function MyStory() {
     return (
         <>
-            <div className="page-container">
-                <div className="my-story-background">
+            <main className="page-container">
+                <section className="my-story-background" aria-label="Pamela's Story background image">
                     <div className="my-story-container">
 
                         <div className="my-story-left">
@@ -21,22 +19,26 @@ function MyStory() {
                             <p className="my-story-text">You’ll often find me with muddy boots, a cup of tea, and a notebook full of ideas. I believe in slow days, warm fires, and curiosity-led learning that doesn’t just educate but enriches.
                             </p>
                             <p  className="my-story-text">So, pour yourself a cuppa, settle in, and let’s create something magical together — one small, beautiful moment at a time.
-
                             </p>
                         </div>
-                        <img  className="my-story-img" src="pam copy.png"/>
+                        <Image className="my-story-img" src="/pam copy.png" alt="Pamela, founder of Home Edventurers" width={800} height={600} priority/>
                     </div>
-
-                    <div className="my-story-flex">
-                        <img className="my-story-flex-img" src="p1.png" alt="image of Pam"/>
-                        <img className="my-story-flex-img" src="p2.png" alt="image of Pam"/>
-                        <img className="my-story-flex-img" src="p3.png" alt="image of Pam"/>
-                        <img className="my-story-flex-img" src="p4.png" alt="image of Pam"/>
-                        <img className="my-story-flex-img" src="p5.png" alt="image of Pam"/>
-                    </div>
-
-            </div>
-        </div>
+                    <section className="my-story-flex" aria-label="Gallery of Pamela in nature and family settings">
+                        {["p1.png", "p2.png", "p3.png", "p4.png", "p5.png"].map((img, i) => (
+                            <Image
+                                key={i}
+                                className="my-story-flex-img"
+                                src={`/${img}`}
+                                alt={`Pamela - gallery image ${i + 1}`}
+                                width={300}
+                                height={300}
+                                sizes="(max-width: 768px) 100vw, 20vw"
+                                loading="lazy"
+                            />
+                        ))}
+                     </section>
+                </section>
+        </main>
                 </>
     )
 

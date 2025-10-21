@@ -1,22 +1,17 @@
 import "./InkCap.css";
 import styles from "@/app/page.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 function InkCap() {
     return (
-        <div className="page-container">
-            <div className="inkcap-background">
-
-                <div className="inkcap-header-container">
-                    {/*<img className="mushroom-img" src="/mushroom.png" alt="mushroom"/>*/}
-                    {/*<div>*/}
-                        <img className="inkcap-img" src="/inklogo1.png" alt="inkcap"/>
-                        <h3 className="mushroom-heading">The Inkcap Adventure Boxes Collaboration</h3>
-                    {/*</div>*/}
-
-                </div>
-
-                <div className="our-ink-flex">
+        <main className="page-container">
+            <section className="inkcap-background">
+                <header className="inkcap-header-container">
+                        <Image className="inkcap-img" src="/inklogo1.png" alt="Inkcap adventure boxes logo" width={250} height={250} priority/>
+                        <h1 className="mushroom-heading">The Inkcap Adventure Boxes Collaboration</h1>
+                </header>
+                <section className="our-ink-flex" aria-label="Meet the inkcap collaborators">
                     <div className="our-ink-child ione">
                         <h3>Scales</h3>
                         <p className="our-ink-card-p"></p>
@@ -34,9 +29,10 @@ function InkCap() {
                     <div className="our-ink-child ifive"><h3>Inkcap</h3>
                         <p className="our-ink-card-p"></p>
                     </div>
-                </div>
+                </section>
 
-                <div className="content-container">
+                <section className="content-container">
+                    <h2>The Boxes...</h2>
                     <p>The Inkcap Adventure Boxes are a magical collaboration with Kylie Dixon that I’ve been so excited to be part of.
                     </p>
                     <p>Step into a world where stories come to life, where children build confidence, pages unfold into adventures, and imagination becomes something you can hold in your hands.
@@ -62,12 +58,12 @@ function InkCap() {
                         <p>Together, these elements transform stories into something tangible — a gentle adventure that nurtures curiosity, creativity, and wonder.
 
                         </p>
-                        <Link className="homelinkbutton" href="https://magicalworldofmushroommarvellous.com/shop/magical-adventure-box/">Order Here</Link>
-                </div>
+                        <Link className="homelinkbutton" href="https://magicalworldofmushroommarvellous.com/shop/magical-adventure-box/" target="_blank" rel="noopener noreferrer" aria-label="Order the Inkcap Adventure boxes">Order Here</Link>
+                </section>
 
 
-            </div>
-        </div>
+            </section>
+        </main>
     )
 }
 
