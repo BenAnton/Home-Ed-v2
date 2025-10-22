@@ -1,0 +1,217 @@
+.our-ethos-background {
+    background-image: url("/trees.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-ethos-container {
+       margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-ethos-header-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 2px solid var(--off-white);
+    /*max-width: 800px;*/
+    width: 90%;
+    margin: 2rem auto 2rem auto;
+    box-sizing: border-box;
+}
+
+.our-ethos-header-container > h1, .our-ethos-header-container > p {
+    color: var(--off-white);
+    text-align: center;
+}
+
+.our-ethos-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-inline: auto;
+    width: 90%;
+    height: fit-content;
+    justify-content: center;
+}
+
+.our-ethos-flex-wide {
+    width: 100%;
+    display: flex;
+}
+
+.our-ethos-child {
+    position: relative;
+    flex: 1;
+    height: 400px;
+    transition: flex 0.3s ease-in-out, transform 0.3s ease-in-out;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid var(--off-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: brightness(1);
+}
+
+.our-ethos-child:hover {
+    flex: 2;
+    background-size: 130%;
+    transform: scaleX(1.02);
+    z-index: 1;
+    filter: brightness(1);
+}
+
+.our-ethos-flex:hover .our-ethos-child:not(:hover) {
+    filter: brightness(0.6);
+
+}
+
+.our-ethos-child h3, h2 {
+    text-align: center;
+    color: var(--off-white);
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.our-ethos-child p {
+    color: var(--off-white);
+    opacity: 0;
+    max-width: 80%;
+    margin-top: 0.5rem;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.our-ethos-child:hover p {
+    opacity: 1;
+    transform: translateY(0);
+    backdrop-filter: blur(20px);
+}
+
+.our-ethos-child > h3 {
+    backdrop-filter: blur(20px);
+
+}
+
+.one {
+    background-image: url("/family.jpg");
+    background-size: cover;
+}
+.two {
+    background-image: url("/nature1.jpg");
+    background-size: cover;
+}
+.three {
+    background-image: url("/creativity.jpg");
+    background-size: cover;
+}
+.four {
+    background-image: url("/leafimage.jpeg");
+    background-size: cover;
+ }
+.five {
+    background-image: url("/forrestimage.jpeg");
+    background-size: cover;
+}
+
+.our-chars-heading {
+    margin-top: 2rem;
+}
+
+.our-ethos-last-para {
+    margin-bottom: 2rem;
+}
+
+
+.char1 {
+    background-image: url("/witch.png");
+    min-height: 600px;
+    max-width: 700px;
+    background-size: 80%;
+}
+
+.char1:hover {
+    background-size: 70%;
+}
+
+.char1 > h3 {
+    margin-bottom: auto;
+}
+
+.char2 {
+    background-image: url("/twognomes.png");
+    min-height: 600px;
+    max-width: 700px;
+    background-size: 80%;
+}
+
+.char2:hover{
+    background-size: 70%;
+}
+
+.char2 > h3 {
+    margin-bottom: auto;
+}
+
+@media (min-width: 1200px) {
+    .two {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .our-ethos-child > h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .our-ethos-flex {
+        flex-wrap: wrap;
+    }
+
+    .our-ethos-child {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 868px) {
+    .our-ethos-child p {
+        opacity: 1 !important;
+        transition: none !important;
+        transform: none !important;
+    }
+
+    .our-ethos-child:hover {
+        opacity: 1;
+        transform: none;
+    }
+
+    .our-ethos-child:hover {
+        flex:1;
+        transform: none;
+    }
+
+    .char2 {
+        background-position-y: 100px;
+    }
+
+    .char1 {
+        background-position-y: 100px;
+    }
+
+}

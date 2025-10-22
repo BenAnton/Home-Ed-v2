@@ -7,7 +7,8 @@ function NavBar () {
     const links = [
         { href:"/", label: "Home" },
         { href:"/MyStory", label: "My Story" },
-        { href:"/OurEthos", label: "Our Ethos" },
+        { href:"/OurValues", label: "Our Values" },
+        { href: "/NordicRoots", label: "Nordic Roots" },
         { href:"/Resources", label: "Resources" },
         { href:"/InkCap", label: "InkCap" },
 
