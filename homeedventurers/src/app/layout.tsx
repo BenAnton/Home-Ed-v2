@@ -24,6 +24,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Home Edventurers",
   description: "Inspiring Curiosity, Wonder & Enchantment",
+    icons: {
+      icon: "/favicon.ico",
+    }
 };
 
 export default function RootLayout({

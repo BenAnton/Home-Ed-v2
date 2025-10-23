@@ -8,7 +8,7 @@ export default function Home() {
           <div className={styles.contentContainer}>
         <h1 className={styles.heading}>Inspiring Curiosity, Wonder & Enchantment</h1>
 
-              <Link className={styles.homelinkbutton}  href="/OurEthos">Find Out More...</Link>
+              <Link className={styles.homelinkbutton}  href="/OurValues">Find Out More...</Link>
 
 
               <p className={styles.para}>Welcome to Home Edventurers: a cosy corner of the world where learning flows gently through play, nature, and everyday magic. Here, we celebrate slow living, simple joys, and the kind of hygge-filled childhoods that stay in your heart forever.

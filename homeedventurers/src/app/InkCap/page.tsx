@@ -11,7 +11,7 @@ function InkCap() {
                 <header className="inkcap-header-container">
                         <Image className="inkcap-img" src="/inkcapround.png" alt="Inkcap adventure boxes logo" width={250} height={250} priority/>
                     <div className="inkcap-img-wrapper">
-                        <Image className="inkcap-img-two" src="/inkcaplogotext.png" alt="Inkcap adventure boxes logo" fill priority/>
+                        <Image className="inkcap-img-two" src="/longerlogo.png" alt="Inkcap adventure boxes logo" fill priority/>
                     </div>
                 </header>
                 <section className="our-ink-flex" aria-label="Meet the inkcap collaborators">

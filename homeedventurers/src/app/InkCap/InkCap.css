@@ -30,8 +30,8 @@
 
 .inkcap-img-wrapper {
     position: relative;
-    width: 40%;
-    aspect-ratio: 5/4;
+    width: 50%;
+    height: 250px;
     margin: 2rem auto;
 }
 
@@ -51,6 +51,7 @@
 
 .inkcap-img-two {
     filter: invert( 100%);
+    object-fit: contain;
 }
 
 .mushroom-heading {
