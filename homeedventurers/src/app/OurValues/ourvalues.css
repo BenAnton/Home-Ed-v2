@@ -196,6 +196,10 @@
         transform: none !important;
     }
 
+    .our-ethos-background {
+        padding-top: 25px;
+    }
+
     .our-ethos-child:hover {
         opacity: 1;
         transform: none;
@@ -214,4 +218,10 @@
         background-position-y: 100px;
     }
 
+}
+
+@media (max-width: 600px) {
+    .our-ethos-background {
+        padding-top: 75px;
+    }
 }

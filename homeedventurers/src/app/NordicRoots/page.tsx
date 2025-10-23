@@ -13,30 +13,67 @@ function NordicRoots () {
         <section>
             <div className="our-ethos-flex">
                 <div className="our-ethos-child nr-one">
-                    <h3>Roots of Wellbeing</h3>
-                    <p className="our-ethos-card-p">Encouraging calm confidence, kindness, and self-awareness through connection, play, and purpose.</p>
+                    <Image src="/forrestimage.jpeg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
+                        <h3>Roots of Wellbeing</h3>
+                        <p className="our-ethos-card-p">Encouraging calm confidence, kindness, and self-awareness through connection, play, and purpose.</p>
+                    </div>
                 </div>
+
                 <div className="our-ethos-child nr-two">
+                    <Image src="/n1.jpg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
                     <h3>The Language of Wonder</h3>
                     <p className="our-ethos-card-p">Nurturing communication and imagination through stories, conversation, and creative expression.</p>
+                    </div>
+
                 </div>
-                <div className="our-ethos-child nr-three"><h3>Little Luminaries</h3>
+                <div className="our-ethos-child nr-three">
+                    <Image src="/n2.jpg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
+                    <h3>Little Luminaries</h3>
                     <p className="our-ethos-card-p">Exploring patterns, problem-solving, and curiosity-led discovery through real-life moments and play.</p>
+                    </div>
                 </div>
-                <div className="our-ethos-child nr-four"><h3>Nature’s Curious Explorers</h3>
+
+                <div className="our-ethos-child nr-four">
+                    <Image src="/n3.jpg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
+                    <h3>Nature’s Curious Explorers</h3>
                     <p className="our-ethos-card-p">Following the rhythm of the seasons — observing, questioning, and celebrating the natural world.</p>
+                    </div>
                 </div>
-                <div className="our-ethos-child nr-five"><h3>The Art of Everyday Enchantment</h3>
+
+                <div className="our-ethos-child nr-five">
+                    <Image src="/n4.jpg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
+                    <h3>The Art of Everyday Enchantment</h3>
                     <p className="our-ethos-card-p">Embracing creativity, crafting, and beauty in the ordinary — because magic is often handmade.</p>
                 </div>
-                <div className="our-ethos-child nr-six"><h3>Wonders in Motion</h3>
+                </div>
+
+                <div className="our-ethos-child nr-six">
+                    <Image src="/n5.jpg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
+                    <h3>Wonders in Motion</h3>
                     <p className="our-ethos-card-p">Honouring movement and freedom — from woodland walks to dancing in the kitchen.</p>
                 </div>
-                <div className="our-ethos-child nr-seven"><h3>Whispers of Wonder</h3>
+                </div>
+
+                <div className="our-ethos-child nr-seven">
+                    <Image src="/n6.jpg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
+                    <h3>Whispers of Wonder</h3>
                     <p className="our-ethos-card-p">Creating space for stillness, gratitude, and mindfulness — the quiet magic of simply being.</p>
                 </div>
-                <div className="our-ethos-child nr-eight"><h3>Heart & Home</h3>
+                </div>
+
+                <div className="our-ethos-child nr-eight">
+                    <Image src="/n7.jpg" alt="A picture of a forrest" fill style={{objectFit: "cover"}}/>
+                    <div className="overlay">
+                    <h3>Heart & Home</h3>
                     <p className="our-ethos-card-p">Celebrating family, tradition, and the small rituals that bring warmth and meaning to daily life.</p>
+                </div>
                 </div>
             </div>
         </section>

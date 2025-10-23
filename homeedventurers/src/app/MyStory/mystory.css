@@ -104,6 +104,10 @@
         text-align: justify;
     }
 
+    .my-story-background {
+        padding-top: 75px;
+    }
+
     .my-story-heading {
         text-align: center;
         margin-top: 0;

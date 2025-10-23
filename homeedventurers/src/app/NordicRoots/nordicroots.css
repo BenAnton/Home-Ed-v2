@@ -13,7 +13,7 @@
 
 .nordic-roots-header-container {
     background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(8px);
     padding: 1.5rem;
     border-radius: 15px;
     border: 2px solid var(--off-white);
@@ -27,7 +27,7 @@
 
 .nordic-roots-container {
     background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(8px);
     padding: 1.5rem;
     border-radius: 15px;
     border: 2px solid var(--off-white);
@@ -77,8 +77,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    filter: brightness(1);
+    /*filter: brightness(1);*/
     min-width: 250px;
+}
+
+.our-ethos-child img {
+    z-index: 0;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.our-ethos-card-p {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .our-ethos-child:hover {
@@ -86,11 +100,11 @@
     background-size: 130%;
     transform: scaleX(1.02);
     z-index: 1;
-    filter: brightness(1);
+    /*filter: brightness(1);*/
 }
 
 .our-ethos-flex:hover .our-ethos-child:not(:hover) {
-    filter: brightness(0.6);
+    /*filter: brightness(0.6);*/
 
 }
 
@@ -113,43 +127,49 @@
 .our-ethos-child:hover p {
     opacity: 1;
     transform: translateY(0);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(8px);
 }
 
 .our-ethos-child > h3 {
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(8px);
 
 }
 
-.nr-one {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
-}
-.nr-two {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
-}
-.nr-three {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
-}
-.nr-four {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
-}
-.nr-five {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
-}
-.nr-six {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
-}
-.nr-seven {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
-}
-.nr-eight {
-    background-image: url("/forrestimage.jpeg");
-    background-size: cover;
+/*.nr-one {*/
+/*    background-image: url("/forrestimage.jpeg");*/
+/*    background-size: cover;*/
+/*}*/
+/*.nr-two {*/
+/*    background-image: url("/n1.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+/*.nr-three {*/
+/*    background-image: url("/n2.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+/*.nr-four {*/
+/*    background-image: url("/n3.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+/*.nr-five {*/
+/*    background-image: url("/n4.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+/*.nr-six {*/
+/*    background-image: url("/n5.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+/*.nr-seven {*/
+/*    background-image: url("/n6.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+/*.nr-eight {*/
+/*    background-image: url("/n7.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+
+@media(max-width: 600px) {
+    .nordic-roots-background {
+        padding-top: 50px;
+    }
 }

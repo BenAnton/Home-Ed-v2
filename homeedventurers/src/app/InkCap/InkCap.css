@@ -185,11 +185,14 @@
     background-image: url("/inkmushroom.png");
     background-size: cover;
     background-color: #075c71;
-    background-position-y: 50px;
+    /*background-position-y: 50px;*/
+
 }
+
 .itwo {
     background-image: url("/ink1.jpeg");
     background-size: cover;
+
 }
 .ithree {
     background-image: url("/ink3.jpeg");
@@ -276,6 +279,16 @@
     .mushroom-heading {
         margin: 0;
     }
+
+    .inkcap-background {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 795px) {
+    .ione {
+        background-position-y: -5rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -285,7 +298,7 @@
     }
 
     .ione {
-        background-position-y: 0px;
+        background-position-y: -5rem;
     }
 
     .inkcap-header-container {
@@ -297,4 +310,16 @@
         width: 80%;
     }
 
+}
+
+@media (max-width: 670px) {
+    .ione {
+        background-position-y: -25px;
+    }
+}
+
+@media (max-width: 550px) {
+    .ione {
+        background-position-y: 20px;
+    }
 }
