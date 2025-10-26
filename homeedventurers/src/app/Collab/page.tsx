@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {fit} from "sharp";
 
-function InkCap() {
+function Collab() {
     return (
         <main className="page-container">
             <section className="inkcap-background">
@@ -60,4 +60,4 @@ function InkCap() {
     )
 }
 
-export default InkCap;
+export default Collab;

@@ -10,7 +10,7 @@ function NavBar () {
         { href:"/OurValues", label: "Our Values" },
         { href: "/NordicRoots", label: "Nordic Roots" },
         { href:"/Resources", label: "Resources" },
-        { href:"/InkCap", label: "InkCap" },
+        { href:"/Collab", label: "Collab" },
 
     ]
 
