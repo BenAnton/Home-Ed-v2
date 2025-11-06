@@ -1,7 +1,16 @@
 import type {resource} from "@/app/Types/types"
 
 const resources: resource[] = [
+
     {
+        id: "b/Jmb5z",
+        title: "Whimsical Winter",
+        description: "Test Descirption",
+        price: 15.00,
+        imgPath: ["winterresource.avif"]
+    },
+    {
+
         id: "b/Hy8aE",
         title: "Gnome Edventurers Enchanted Autumn",
         description: "Test Descirption",

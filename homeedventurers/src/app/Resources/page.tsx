@@ -16,7 +16,7 @@ function Resources () {
                 </div>
                     <div className="featured-flex">
                         <h2 className="featured-heading-h2">{featured.title}</h2>
-                        <h3 className="featured-heading-h3">Our newest magical guide - We're excited to share it with you.</h3>
+                        <h3 className="featured-heading-h3">Inspiring curiosity, wonder & enchantment through nature. Includes a mini cosy Christmas guide!</h3>
                         <p className="featured-price">£{featured.price === 0 ? "Free" : featured.price}</p>
                         <div className="featured-flex-button">
                             <a className="featured-buy-button" href={`https://payhip.com/${resources[0].id}`} rel="noopener noreferrer" aria-label="Buy featured resource on payhip">Buy Now</a>
