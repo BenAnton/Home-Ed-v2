@@ -10,9 +10,16 @@ const resources: resource[] = [
         imgPath: ["winterresource.avif"]
     },
     {
+        id: "b/6AdrV",
+        title: "A Cosy Christmas",
+        description: "Test Descirption",
+        price: 0,
+        imgPath: ["cosychristmas.avif"]
+    },
+    {
 
         id: "b/Hy8aE",
-        title: "Gnome Edventurers Enchanted Autumn",
+        title: "Enchanted Autumn",
         description: "Test Descirption",
         price: 10.00,
         imgPath: ["autumnpack.avif", "autumnpack2.webp"]
