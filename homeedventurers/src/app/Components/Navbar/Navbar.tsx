@@ -8,9 +8,9 @@ function NavBar () {
         { href:"/", label: "Home" },
         { href:"/MyStory", label: "My Story" },
         { href:"/OurValues", label: "Our Values" },
-        { href: "/NordicRoots", label: "Nordic Roots" },
-        { href:"/Resources", label: "Resources" },
-        { href:"/Collab", label: "Collab" },
+        // { href: "/NordicRoots", label: "Nordic Roots" },
+        { href:"https://payhip.com/homeedventurers", label: "Resources" },
+        // { href:"/Collab", label: "Collab" },
 
     ]
 

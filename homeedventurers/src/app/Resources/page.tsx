@@ -10,24 +10,29 @@ function Resources () {
 
     return (
         <main className="resources-background">
-            <section className="resources-featured" aria-label="Featured resource">
-                <div className="featured-img-wrapper">
-                    <Image className="featured-img" src={`/${featured.imgPath[0]}`} alt={`Cover for ${featured.title}`} style={{objectFit: "cover"}} fill priority/>
-                </div>
-                    <div className="featured-flex">
-                        <h2 className="featured-heading-h2">{featured.title}</h2>
-                        <h3 className="featured-heading-h3">Inspiring curiosity, wonder & enchantment through nature. Includes a mini cosy Christmas guide!</h3>
-                        <p className="featured-price">£{featured.price === 0 ? "Free" : featured.price}</p>
-                        <div className="featured-flex-button">
-                            <a className="featured-buy-button" href={`https://payhip.com/${resources[0].id}`} rel="noopener noreferrer" aria-label="Buy featured resource on payhip">Buy Now</a>
-                        </div>
-                    </div>
-            </section>
-        <section className="resources-container" aria-label="All Resources">
-            {resources.map((resource: resource, index: number) => (
-                <Resource key={index} resource={resource} />
-            ))}
-        </section>
+            <header className="resources-header-container">
+                <h1>Our Resources</h1>
+                <p>Our wonderful resources can be found on: <a  href="https://payhip.com/homeedventurers"><button className="button-margin-left" >PayHip</button></a></p>
+                 </header>
+            
+            {/*<section className="resources-featured" aria-label="Featured resource">*/}
+            {/*    <div className="featured-img-wrapper">*/}
+            {/*        <Image className="featured-img" src={`/${featured.imgPath[0]}`} alt={`Cover for ${featured.title}`} style={{objectFit: "cover"}} fill priority/>*/}
+            {/*    </div>*/}
+            {/*        <div className="featured-flex">*/}
+            {/*            <h2 className="featured-heading-h2">{featured.title}</h2>*/}
+            {/*            <h3 className="featured-heading-h3">Inspiring curiosity, wonder & enchantment through nature. Includes a mini cosy Christmas guide!</h3>*/}
+            {/*            <p className="featured-price">£{featured.price === 0 ? "Free" : featured.price}</p>*/}
+            {/*            <div className="featured-flex-button">*/}
+            {/*                <a className="featured-buy-button" href={`https://payhip.com/${resources[0].id}`} rel="noopener noreferrer" aria-label="Buy featured resource on payhip">Buy Now</a>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*</section>*/}
+        {/*<section className="resources-container" aria-label="All Resources">*/}
+        {/*    {resources.map((resource: resource, index: number) => (*/}
+        {/*        <Resource key={index} resource={resource} />*/}
+        {/*    ))}*/}
+        {/*</section>*/}
             </main>
 
             )

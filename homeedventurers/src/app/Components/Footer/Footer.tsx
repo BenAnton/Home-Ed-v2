@@ -4,7 +4,7 @@ function Footer () {
     const links = [
         {href: "https://www.instagram.com/homeedventurers?igsh=MTgydjY5anlnamlveQ==", src:"/instagram.png", alt: "Instagram"},
         { href: "https://www.facebook.com/groups/homeedventurerscommunity/?ref=share", src: "/facebook.png", alt: "Facebook" },
-        { href: "https://payhip.com/homeedventurers", src: "/payhip.svg", alt: "Payhip" },
+        // { href: "https://payhip.com/homeedventurers", src: "/payhip.svg", alt: "Payhip" },
         { href: "https://www.tiktok.com/@homeedventurers?_t=ZN-90XhWAqwzxe&_r=1", src: "/tiktok.png", alt: "TikTok" },
     ]
 

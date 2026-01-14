@@ -1,3 +1,18 @@
+.resources-header-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 2px solid var(--off-white);
+    /*max-width: 800px;*/
+    width: 90%;
+    margin: 8rem auto 2rem auto;
+    box-sizing: border-box;
+    color: var(--off-white);
+    text-align: center;
+}
+
+
 .resources-background {
     background-image: url("/14.jpeg");
     /*background-color: #20292f ;*/
@@ -39,6 +54,20 @@
     min-width: 600px;
     background-color: #20292f ;
     border: 2px solid var(--off-white);
+}
+
+.resources-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 2px solid var(--off-white);
+    /*max-width: 800px;*/
+    width: 90%;
+    margin: 2rem auto 5rem auto;
+    box-sizing: border-box;
+    color: var(--off-white);
+    text-align: center;
 }
 
 .featured-heading-h2 {
@@ -125,6 +154,10 @@
         cursor: pointer;
         transform: scale(1.2);
     }
+
+.button-margin-left  {
+    margin-left: 2rem;
+}
 
 
 @media (max-width: 1024px) {
